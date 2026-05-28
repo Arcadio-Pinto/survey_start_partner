@@ -1,0 +1,68 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* survey_start_partner
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+"Language: it\n"
+
+#. module: survey_start_partner
+#: model:ir.module.module,shortdesc:survey_start_partner.module_meta_information
+msgid "Survey - Start for Partner"
+msgstr "Sondaggio - Avvia per Partner"
+
+#. module: survey_start_partner
+#: model:ir.module.module,summary:survey_start_partner.module_meta_information
+msgid "Start a survey for a partner from the kanban view"
+msgstr "Avvia un sondaggio per un partner dalla vista kanban"
+
+#. module: survey_start_partner
+#: model:ir.model,name:survey_start_partner.model_survey_start_wizard
+msgid "Start Survey for a Partner"
+msgstr "Avvia Sondaggio per un Partner"
+
+#. module: survey_start_partner
+#. odoo-python
+#: code:addons/survey_start_partner/models/survey_survey.py:0
+#: model_terms:ir.ui.view,arch_db:survey_start_partner.survey_start_wizard_view_form
+#: model_terms:ir.ui.view,arch_db:survey_start_partner.survey_survey_view_kanban
+msgid "Start Survey"
+msgstr "Avvia Sondaggio"
+
+#. module: survey_start_partner
+#: model:ir.model.fields,field_description:survey_start_partner.field_survey_start_wizard__survey_id
+msgid "Survey"
+msgstr "Sondaggio"
+
+#. module: survey_start_partner
+#: model:ir.model.fields,field_description:survey_start_partner.field_survey_start_wizard__partner_id
+msgid "Partner"
+msgstr "Partner"
+
+#. module: survey_start_partner
+#: model:ir.model.fields,field_description:survey_start_partner.field_survey_start_wizard__survey_start_link
+msgid "Survey Link"
+msgstr "Link del sondaggio"
+
+#. module: survey_start_partner
+#: model_terms:ir.ui.view,arch_db:survey_start_partner.survey_start_wizard_view_form
+msgid "Generate Link"
+msgstr "Genera link"
+
+#. module: survey_start_partner
+#: model_terms:ir.ui.view,arch_db:survey_start_partner.survey_start_wizard_view_form
+msgid "Cancel"
+msgstr "Annulla"
+
+#. module: survey_start_partner
+#. odoo-python
+#: code:addons/survey_start_partner/wizard/survey_start_wizard.py:0
+msgid "Survey started for %(partner)s from %(user)s: %(answer)s"
+msgstr "Sondaggio avviato per %(partner)s da %(user)s: %(answer)s"

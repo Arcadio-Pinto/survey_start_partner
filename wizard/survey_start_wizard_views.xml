@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="survey_start_wizard_view_form" model="ir.ui.view">
+        <field name="name">survey.start.wizard.form</field>
+        <field name="model">survey.start.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Start Survey">
+                <group>
+                    <field name="survey_id" readonly="1"/>
+                    <field name="require_login" invisible="1"/>
+                    <field name="partner_id" domain="require_login and [('user_ids', '!=', False)] or []"/>
+                    <field name="survey_start_link" widget="CopyClipboardChar" invisible="not survey_start_link"/>
+                </group>
+                <footer>
+                    <button name="action_start_survey" string="Start Survey" type="object" class="btn-primary"/>
+                    <button name="action_generate_link" string="Generate Link" type="object" class="btn-secondary"/>
+                    <button string="Cancel" class="btn-secondary" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+</odoo>
